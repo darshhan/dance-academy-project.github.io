@@ -1,0 +1,21 @@
+extends base.pug    
+
+block scripts
+    script(src='../static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome to Remo Dance Academy
+        div.small Eat.Dance.Sleep.Repeat
+    
+    section#SponsorSection 
+        h2 Our sponsors
+        div#sponsor
+            img(src="../static/img/mlogo.png" alt="Sponsor Image",class= "spImage")
+            img(src="../static/img/alogo.png" alt="Sponsor Image",class= "spImage")
+            img(src="../static/img/flogo.png" alt="Sponsor Image",class= "spImage")
+            img(src="../static/img/glogo.png" alt="Sponsor Image",class= "spImage")

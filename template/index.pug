@@ -1,0 +1,36 @@
+doctype html
+html
+  head 
+  title Remo Dance Academy
+  style
+      include ../static/style.css
+  body
+
+    nav#navbar 
+      ul 
+        div#logo
+          img(src="../static/img/logo.ico")
+          | PDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About Us]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Services]
+        li #[a(href="/") Contact Us]
+
+  section#introSection 
+    div Welcome to Remo Dance Academy
+    div.small Eat.Dance.Sleep.Repeat
+
+  section#SponsorSection 
+    h2 Our sponsors
+    div#sponsor
+        img(src="../static/img/mlogo.png", alt="Sponsor Image",class= "spImage")
+        img(src="../static/img/alogo.png", alt="Sponsor Image",class= "spImage")
+        img(src="../static/img/flogo.png", alt="Sponsor Image",class= "spImage")
+        img(src="../static/img/glogo.png", alt="Sponsor Image",class= "spImage")
+    
+  footer#footer 
+    | Copyright © RemoDanceAcademy.com | All rights reserved
+  
+  script 
+  include ../static/index.js

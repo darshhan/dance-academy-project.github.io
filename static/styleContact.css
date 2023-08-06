@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+h1{
+    text-align: center;
+    margin:12px 0px;
+}
+.container{
+    min-height: 80vh;
+    margin: 43px 0;
+    
+}
+.container h1{
+    font-size: 34px;
+}
+.myForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    outline: none;
+    width:100%
+}
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    margin: 8px;
+    padding: 9px;
+    border: 2px solid black;
+    border-radius: 8px
+}
+.btn{
+        padding: 10px 14px;
+        background-color: #a87b90;
+        font-weight: bold;
+        cursor: pointer;
+        color: white;
+        border: 2px solid black;
+        border-radius: 8px;
+}
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 25px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 47px;
+    
+}
+#navbar{
+    background-color: #a87b90;
+    padding: 13px 14px;
+    font-family: 'VT323', monospace;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+   list-style: none;
+}
+#navbar li a{
+    font-size: 26px;
+    color: white;
+    padding: 13px 20px;
+    text-decoration: none;
+}
+#navbar li a:hover{
+    color: black;
+    text-decoration: none;
+}
+#introSection {
+    font-size: 47px;
+    padding-top: 236px;
+    font-family: 'Angkor', cursive;;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    background: center /cover no-repeat url("../static/bg.jpg");
+    height: 400px;
+    background-color: red;
+}
+#introSection div.small{
+   font-size: 32px;
+}
+#SponsorSection{
+    height: 250px;
+    background-color: #ff8181b8;
+}
+#SponsorSection h2{
+    padding-top:12px;
+    text-align: center;
+}
+#footer{
+    font-size: 20px;
+    display: flex;
+    height: 60px;
+    color:white;    
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+#footer a{
+    color:white;
+    text-decoration: none;
+}
+#sponsor{
+    height: 120px;
+    max-width: 1000px;
+    margin:auto;   
+}
+.spImage{
+  height: 169px;
+  margin:27px 4%;
+  max-width: 1000px;
+}

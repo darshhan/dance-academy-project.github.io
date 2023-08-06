@@ -1,0 +1,25 @@
+html
+  head
+    title Remo Dance Academy
+    block scripts
+    block style
+   
+    
+  body
+    nav#navbar 
+        ul 
+            div#logo
+             a(href="/")
+              img(src="../static/img/logo.ico")
+            | PDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About Us]
+            li #[a(href="/") Class Info]
+            li #[a(href="/service") Services]
+            li #[a(href="/contact") Contact Us]
+    block content
+    
+    block foot 
+        footer#footer 
+          a(href="/")
+            | Copyright © RemoDanceAcademy.com | All rights reserved
